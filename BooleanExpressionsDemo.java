@@ -8,6 +8,7 @@ boolean isAGreater = a > b;
 boolean areEqual = a == b;
 boolean bothTrue = isJavaFun && (a < b);
 boolean eitherTrue = isJavaFun || isHomeworkTiring;
+boolean notTrue =!isHomeworkTiring;
 boolean exclusiveOr = isJavaFun ^ isHomeworkTiring;
 System.out.println("Is Java fun? " + isJavaFun);
 System.out.println("Is homework tiring? " + isHomeworkTiring);
